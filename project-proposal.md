@@ -1,5 +1,15 @@
 # World Refugee Migration
 
+## The Team Members and Their Roles 
+
+* Team Lead - Donna Dietrich 
+
+* Scrum Master - Erdem Balikci
+
+* Data Engineer - Matt McLaughlin
+
+* Tester - Ian Womack
+    
 ## Topic and Focus
 Every year, hundreds of thousands of individuals flee their countries as refugees. We will be creating and interactive visualization showing where these refugees flee from, the country they settle in, the armed conflicts potentially sparking these migrations, and the potential impact to the countries receiving these individuals.
 

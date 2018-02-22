@@ -1,0 +1,30 @@
+.jumbotron {
+    background-image: url("headerbackground.jpg"); 
+    background-position: top center; 
+    /* background-size: cover; */
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    color: #4d2600;
+    font: Impact; 
+
+}
+
+.page-style{
+    background-color: #4d2600;
+    color: white;
+    font: Impact;
+    font-size: 1em;
+}
+
+.table{
+    background-color: tan;
+    border: black;
+    font: Impact;
+    color: black;
+    font-size: 12px
+    
+}
+.col-md-12{
+   margin: 20px
+}

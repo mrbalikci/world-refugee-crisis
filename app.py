@@ -60,7 +60,7 @@ def info(country):
     info_table.columns = ['country_name', 'GDP YEAR 2015', 'POPULATION YEAR 2016', 'ASYLUM NUMBER YEAR 2016', 'REFUGEE ORIGIN YEAR 2016']
     info_table = info_table.set_index('country_name').to_dict('index')
 
-    data = info_table[id]
+    data = info_table[country]
 
     metaData = []
 

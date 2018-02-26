@@ -4,7 +4,6 @@ function appendTable(name) {
 
     // print it on console 
     console.log(url_meta)
-    console.log(url_samples)
 
     // append the metadata to the table 
     Plotly.d3.json(url_meta, function (error, response) {

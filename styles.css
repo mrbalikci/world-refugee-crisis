@@ -1,17 +1,17 @@
 .jumbotron {
-    background-image: url("headerbackground.jpg"); 
+    background-image: url("headerbackground6.jpg"); 
     background-position: top center; 
     /* background-size: cover; */
     background-color: black;
     padding-top: 5%;
     padding-bottom: 1%;
-    color: #4d2600;
+    color: maroon;
     font: Impact; 
 
 }
 
 .page-style{
-    background-color: #4d2600;
+    background-color: rgb(88, 0, 0);
     color: white;
     font: Impact;
     font-size: 1em;
@@ -27,4 +27,8 @@
 }
 .col-md-12{
    margin: 20px
+}
+
+.tan{
+    background-color: tan;
 }

@@ -5,6 +5,9 @@ import json
 import time
 
 import numpy as np
+
+# json.dumps(np.int64(685))
+
 # import necessary libraries
 import pandas as pd
 from flask import Flask, jsonify, render_template
@@ -51,25 +54,47 @@ def names():
 
     return jsonify(country_names)
 
-@app.route("/info/<country>")
 
+@app.route("/info/<country>")
 def info(country):
-    info_table = session.query(CountryInfo.country_name, CountryInfo.gdp_YR2015, CountryInfo.population_YR2016, 
-                           CountryInfo.asylum_YR2016, CountryInfo.origin_YR2016).all()
+    info_table = session.query(CountryInfo.country_name, CountryInfo.gdp_YR2015, CountryInfo.population_YR2016,
+                               CountryInfo.asylum_YR2016, CountryInfo.origin_YR2016).all()
     info_table = pd.DataFrame(info_table)
-    info_table.columns = ['country_name', 'GDP YEAR 2015', 'POPULATION YEAR 2016', 'ASYLUM NUMBER YEAR 2016', 'REFUGEE ORIGIN YEAR 2016']
+    info_table.columns = ['country_name', 'GDP YEAR 2015', 'POPULATION YEAR 2016',
+                          'ASYLUM NUMBER YEAR 2016', 'REFUGEE ORIGIN YEAR 2016']
     info_table = info_table.set_index('country_name').to_dict('index')
 
     data = info_table[country]
 
     metaData = []
 
-    # for loop to append data for HTML table 
+    # for loop to append data for HTML table
     for x, y in data.items():
         xy = {'t0': x, 't1': y}
         metaData.append(xy)
 
     return jsonify(metaData)
+
+
+@app.route("/chart/<country>")
+def chart(country):
+    asylum_table = session.query(Asylum.country_name, Asylum.y1990, Asylum.y1991,
+                                 Asylum.y1992, Asylum.y1993, Asylum.y1994, Asylum.y1995, Asylum.y1996,
+                                 Asylum.y1997, Asylum.y1998, Asylum.y1999, Asylum.y2000, Asylum.y2001,
+                                 Asylum.y2002, Asylum.y2003, Asylum.y2004, Asylum.y2005, Asylum.y2006,
+                                 Asylum.y2007, Asylum.y2008, Asylum.y2009, Asylum.y2010, Asylum.y2011,
+                                 Asylum.y2012, Asylum.y2013, Asylum.y2014, Asylum.y2015, Asylum.y2016).all()
+
+    asylum_table = pd.DataFrame(asylum_table)
+    asylum_table = asylum_table.set_index('country_name').to_dict('index')
+
+    ser = json.dumps(asylum_table, cls=json.JSONEncoder)
+
+
+    unser = json.loads(ser)
+
+    return jsonify(unser)
+
 
 @app.route("/data")
 def data():

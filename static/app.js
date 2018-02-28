@@ -83,34 +83,6 @@ function appendTable(name) {
           };
           
           Plotly.newPlot('plotPie', data, layout);
-
-        var trace1 = {
-            x: years,
-            y: valuesAsylum,
-            type: 'scatter'
-        };
-
-        var trace2 = {
-            x: years,
-            y: yearsData,
-            type: 'scatter'
-        };
-
-        var trace3 = {
-            x: years,
-            y: valuesDeath,
-            type: 'scatter'
-        };
-
-        var data = [trace1, trace2, trace3];
-
-        var layout = {
-            title: 'Sample Value Chart',
-            height: 500,
-            width: 700
-        };
-
-        Plotly.newPlot('plotChart', data, layout);
     });
 }
 

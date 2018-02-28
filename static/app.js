@@ -31,8 +31,58 @@ function appendTable(name) {
         var valuesOrigin = yearsData.refugee_years;
         var valuesDeath = yearsData.battle_years;
 
-        console.log(years)
+        var trace1 = {
+            x: years,
+            y: valuesAsylum,
+            type: 'scatter'
+        };
 
+        var trace2 = {
+            x: years,
+            y: yearsData,
+            type: 'scatter'
+        };
+
+        var trace3 = {
+            x: years,
+            y: valuesDeath,
+            type: 'scatter'
+        };
+
+        var data = [trace1, trace2, trace3];
+
+        var layout = {
+            title: 'Sample Value Chart',
+            height: 500,
+            width: 700
+        };
+
+        Plotly.newPlot('plotChart', data, layout);
+    });
+
+    Plotly.d3.json(url_years, function (error, yearsData) {
+
+        // variables for pie chart
+        var sumAsylum = yearsData.asylum_years.reduce(function(a, b) { return a + b; }, 0);
+        var sumOrigin = yearsData.refugee_years.reduce(function(a, b) { return a + b; }, 0);
+        var sumDeath = yearsData.battle_years.reduce(function(a, b) { return a + b; }, 0);
+    
+        console.log(sumAsylum)
+        console.log(sumOrigin)
+        console.log(sumDeath)
+
+        var data = [{
+            values: [sumAsylum, sumOrigin, sumDeath],
+            labels: ['Total Asylum Since 1990', 'Total Refugee Origin Since 1990', 'Total Battle Death Since 1990'],
+            type: 'pie'
+          }];
+          
+          var layout = {
+            height: 700,
+            width: 900
+          };
+          
+          Plotly.newPlot('plotPie', data, layout);
 
         var trace1 = {
             x: years,

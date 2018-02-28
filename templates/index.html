@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>World Refugee Crisis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://unpkg.com/simple-statistics@5.0.0/dist/simple-statistics.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Leaflet CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles.css') }}">
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+</head>
+
+
+<body class="page-style">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+            <h1 class="display-3">World Refugee Crisis</h1>
+            <p class="lead">Tragic headlines of refugees have been dominating the news for months. Where are the refugees coming from and which countries are taking them in? Is armed conflict the reason for this crisis? Is it truly a crisis or is the situation blown
+                out of proportion? These are the questions data will try to answer.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <h3>World Map of Refugees Origin, Destination, and Related Conflicts</h3>
+                <div id="map" style="height: 400px"></div>
+            </div>
+
+
+            <div class="col-md-3">
+                <hr>
+
+                <h4>Select a Country</h4>
+                <hr>
+
+                <div class="belly">
+                    <select class="row form-control" id="selDataset"></select>
+                    <br>
+                    <table class="table table-bordered">
+                        <tbody></tbody>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="col-md-12">
+                <h3>Refugee Statistics 1990 - Present</h3>
+                <!-- <div class="panel panel-default">
+                    <div class="panel-body"> -->
+                <hr>
+                <h4>Chart 1</h4>
+                <!-- </div>
+                </div> -->
+                <div class="belly">
+                    <div id="plotChart"></div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12">
+                <!-- <div class="panel panel-default">
+                    <div class="panel-body"> -->
+                <h4>Chart 2</h4>
+                <!-- </div>
+                </div> -->
+                <div class="belly">
+                    <div id="plotPie"></div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12">
+                <!-- <div class="panel panel-default">
+                    <div class="panel-body"> -->
+                <h4>More Charts</h4>
+                <!-- </div>
+                </div> -->
+                <div class="belly">
+                    <div id="frappeChart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://unpkg.com/frappe-charts@0.0.8/dist/frappe-charts.min.iife.js"></script>
+    <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    <!-- <script src="{{ url_for('static', filename='js/appF.js') }}"></script> -->
+</body>
+
+</html>

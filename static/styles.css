@@ -1,0 +1,42 @@
+.jumbotron {
+    background-image: url("headerbackground6.jpg");
+    background-position: top center;
+    /* background-size: cover; */
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    color: maroon;
+    font: Impact;
+}
+
+.page-style {
+    background-color: rgb(88, 0, 0);
+    color: white;
+    font: Impact;
+    font-size: 1em;
+}
+
+select {
+    padding: 8px;
+}
+
+.panel-body {
+    background-color: white;
+    font: Impact;
+    color: black;
+}
+
+th,
+td {
+    text-align: left;
+    color: black;
+    padding: 8px;
+}
+
+tbody>tr:nth-child(even) {
+    background-color: #f2f2f2 !important
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: #fff !important
+}

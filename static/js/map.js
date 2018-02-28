@@ -1,6 +1,6 @@
 var URL = "/data"
 var mapboxKey = "pk.eyJ1IjoibW1jbGF1Z2hsaW44NyIsImEiOiJjamRoank1NjQwd2R1MzNybGppOG9kZTdsIn0.2JTZIjgBlzTvfKjs7Rw_Dg"
-var mapboxURL = "https://api.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?"
+var mapboxURL = "https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}?"
 
 function createMap(data) {  
     var asylum_markers = []
@@ -16,17 +16,23 @@ function createMap(data) {
         var asylum_marker = L.circle(coords, {
             radius: asylum_seekers/5,
             color: "green",
-            fillColor: "green"
+            fillColor: "green",
+            fillOpacity: 0.5,
+            stroke: null
         });
         var refugee_marker = L.circle(coords, {
             radius: refugees/5,
             color: "yellow",
-            fillColor: "yellow"
+            fillColor: "yellow",
+            fillOpacity: 0.5,
+            stroke: null
         });
         var death_marker = L.circle(coords, {
             radius: battle_deaths*20,
             color: "red",
-            fillColor: "red"
+            fillColor: "red",
+            fillOpacity: 0.5,
+            stroke: null
         });
         var markerArray = [asylum_marker,refugee_marker,death_marker]
         for(j=0; j<markerArray.length; j++){
@@ -50,21 +56,44 @@ function createMap(data) {
     var baseMaps = {"Map":mapLayer}
 
     var overlayMaps = {
-        "Asylum Seekers to Country": asylumLayer,
+        "Battle Related Deaths": deathLayer,
         "Refugees from Country": refugeeLayer,
-        "Battle Related Deaths": deathLayer
+        "Asylum Seekers to Country": asylumLayer,
     };
 
     var myMap = L.map("map", {
         center: [20, -10],
         zoom: 1.5,
-        layers: [mapLayer, deathLayer, refugeeLayer, asylumLayer]
+        properties: {language: "en"},
+        layers: [mapLayer, refugeeLayer, asylumLayer, deathLayer]
     });
     
     L.control.layers(baseMaps, overlayMaps, {
         collapsed: false,
         hideSingleBase: true
     }).addTo(myMap);
+
+    var legend = L.control({position: 'bottomleft'});
+    
+    legend.onAdd = function (map) {
+    
+        var div = L.DomUtil.create('div', 'info legend')
+    
+        // loop through our density intervals and generate a label with a colored square for each interval
+        div.innerHTML = "<div style='background-color:#fff;padding:5px;border:2px solid #8e9196;border-radius:5px;'>\
+                            <p style='text-align:center; margin:0px'><strong>Legend</strong></p>\
+                            <hr style='margin-top:2px;margin-bottom:2px'>\
+                            <svg height='8' width='8'><circle cx='4' cy='4' r='4' stroke='null' fill='red' /></svg> Battle Deaths (20x)<br>\
+                            <svg height='8' width='8'><circle cx='4' cy='4' r='4' stroke='null' fill='green' /></svg> Asylum Seekers<br>\
+                            <svg height='8' width='8'><circle cx='4' cy='4' r='4' stroke='null' fill='yellow' /></svg> Refugees From Country</div>"
+                // '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+                // grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+        
+    
+        return div;
+    };
+    
+    legend.addTo(myMap);
 };
 
 // import data and create map

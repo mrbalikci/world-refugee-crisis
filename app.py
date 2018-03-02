@@ -1,3 +1,4 @@
+
 # -*- coding: UTF-8 -*-
 
 import json
@@ -5,6 +6,9 @@ import json
 import time
 
 import numpy as np
+
+# json.dumps(np.int64(685))
+
 # import necessary libraries
 import pandas as pd
 from flask import Flask, jsonify, render_template
@@ -41,14 +45,35 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return 'Welcome'
+    return render_template("index.html")
 
 @app.route("/names")
 def names():
     country_names = session.query(Asylum.country_name).all()
     country_names = [x[0] for x in country_names]
-    
+
     return jsonify(country_names)
+
+@app.route("/info/<country>")
+def info(country):
+    info_table = session.query(CountryInfo.country_name, CountryInfo.gdp_YR2015, CountryInfo.population_YR2016,
+                               CountryInfo.asylum_YR2016, CountryInfo.origin_YR2016).all()
+    info_table = pd.DataFrame(info_table)
+    info_table.columns = ['country_name', 'GDP YEAR 2015', 'POPULATION YEAR 2016',
+                          'ASYLUM NUMBER YEAR 2016', 'REFUGEE ORIGIN YEAR 2016']
+    info_table = info_table.set_index('country_name').to_dict('index')
+
+    data = info_table[country]
+
+    metaData = []
+
+    # for loop to append data for HTML table
+    for x, y in data.items():
+        xy = {'t0': x, 't1': y}
+        metaData.append(xy)
+
+    return jsonify(metaData)
+
 
 @app.route("/data")
 def data():
@@ -56,6 +81,38 @@ def data():
     origin_data = session.query(Origin).all()
     battle_death_data = session.query(BattleDeaths).all()
     country_objects = []
+
+    def get_year_array(data):
+        output_array = []
+        output_array.append(data.y1990)
+        output_array.append(data.y1991)
+        output_array.append(data.y1992)
+        output_array.append(data.y1993)
+        output_array.append(data.y1994)
+        output_array.append(data.y1995)
+        output_array.append(data.y1996)
+        output_array.append(data.y1997)
+        output_array.append(data.y1998)
+        output_array.append(data.y1999)
+        output_array.append(data.y2000)
+        output_array.append(data.y2001)
+        output_array.append(data.y2002)
+        output_array.append(data.y2003)
+        output_array.append(data.y2004)
+        output_array.append(data.y2005)
+        output_array.append(data.y2006)
+        output_array.append(data.y2007)
+        output_array.append(data.y2008)
+        output_array.append(data.y2009)
+        output_array.append(data.y2010)
+        output_array.append(data.y2011)
+        output_array.append(data.y2012)
+        output_array.append(data.y2013)
+        output_array.append(data.y2014)
+        output_array.append(data.y2015)
+        output_array.append(data.y2016)
+
+        return output_array
 
     for i in range(0, len(asylum_data)):
         country_object = {}
@@ -65,6 +122,9 @@ def data():
         country_object['asylum_seekers'] = asylum_data[i].y2016
         country_object['refugees'] = origin_data[i].y2016
         country_object['battle_deaths'] = battle_death_data[i].y2016
+        country_object['refugee_years'] = get_year_array(origin_data[i])
+        country_object['asylum_years'] = get_year_array(asylum_data[i])
+        country_object['battle_years'] = get_year_array(battle_death_data[i])
         country_objects.append(country_object)
     
     return jsonify(country_objects)
@@ -75,6 +135,7 @@ def country_info(country):
     asylum_data = session.query(Asylum).filter(Asylum.country_name == country).first()
     origin_data = session.query(Origin).filter(Origin.country_name == country).first()
     battle_death_data = session.query(BattleDeaths).filter(BattleDeaths.country_name == country).first()
+    
     def get_year_array(data):
         output_array = []
         output_array.append(data.y1990)

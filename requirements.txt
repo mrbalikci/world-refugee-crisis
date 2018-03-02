@@ -1,0 +1,3 @@
+certifi==2018.1.18
+gunicorn==19.7.1
+wincertstore==0.2

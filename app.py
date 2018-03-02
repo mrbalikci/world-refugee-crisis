@@ -19,7 +19,7 @@ from sqlalchemy.orm import Session
 # Database Setup
 #################################################
 
-engine = create_engine('sqlite:///refugees_and_conflict.sqlite')
+engine = create_engine('sqlite:///db//refugees_and_conflict.sqlite')
 
 # reflect an existing database into a new model
 Base = automap_base()

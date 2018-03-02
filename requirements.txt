@@ -1,3 +1,10 @@
 certifi==2018.1.18
+click==6.7
+Flask==0.12.2
 gunicorn==19.7.1
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+SQLAlchemy==1.2.4
+Werkzeug==0.14.1
 wincertstore==0.2

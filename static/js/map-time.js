@@ -1,8 +1,8 @@
 //create map and layers
 var URL = "/data"
 var mapboxKey = "pk.eyJ1IjoibW1jbGF1Z2hsaW44NyIsImEiOiJjamRoank1NjQwd2R1MzNybGppOG9kZTdsIn0.2JTZIjgBlzTvfKjs7Rw_Dg"
-var streetURL =  "https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/tiles/256/{z}/{x}/{y}?"
-var darkURL =  "https://api.mapbox.com/styles/v1/mapbox/dark-v9/tiles/256/{z}/{x}/{y}?"
+var streetURL = "https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/tiles/256/{z}/{x}/{y}?"
+var darkURL = "https://api.mapbox.com/styles/v1/mapbox/dark-v9/tiles/256/{z}/{x}/{y}?"
 var satelliteURL = "https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.png?"
 
 var streetLayer = L.tileLayer(
@@ -26,19 +26,20 @@ var myMap = L.map("map", {
 });
 
 //gather date from api, create markers, and display on map
-d3.json(URL, function (data) {
+d3.json(URL, function(data) {
     var featureArray = [];
     var asylum_markers = [];
     var refugee_markers = [];
     var death_markers = [];
-    var yearsEpoch = [631152000000,662688000000,694224000000,725846400000,757382400000,788918400000,820454400000,852076800000,
-        883612800000,915148800000,946684800000,978307200000,1009843200000,1041379200000,1072915200000,1104537600000,1136073600000,
-        1167609600000,1199145600000,1230768000000,1262304000000,1293840000000,1325376000000,1356998400000,1388534400000,1420070400000,
-        1451606400000];
+    var yearsEpoch = [631152000000, 662688000000, 694224000000, 725846400000, 757382400000, 788918400000, 820454400000, 852076800000,
+        883612800000, 915148800000, 946684800000, 978307200000, 1009843200000, 1041379200000, 1072915200000, 1104537600000, 1136073600000,
+        1167609600000, 1199145600000, 1230768000000, 1262304000000, 1293840000000, 1325376000000, 1356998400000, 1388534400000, 1420070400000,
+        1451606400000
+    ];
     for (i = 0; i < data.length; i++) {
 
         //iterate through each year of data and create geoJSON features
-        for (j=0; j < yearsEpoch.length; j++){
+        for (j = 0; j < yearsEpoch.length; j++) {
             var refugeeFeature = {};
             refugeeFeature.geometry = {
                 type: "Point",
@@ -66,7 +67,7 @@ d3.json(URL, function (data) {
                 time: yearsEpoch[j],
                 color: "green"
             };
-            
+
             var deathFeature = {};
             deathFeature.geometry = {
                 type: "Point",
@@ -93,32 +94,32 @@ d3.json(URL, function (data) {
         var battle_deaths = data[i].battle_deaths;
         var refugees = data[i].refugees;
         var asylum_marker = L.circle(coords, {
-            radius: asylum_seekers/5,
+            radius: asylum_seekers / 5,
             color: "green",
             fillColor: "green",
             fillOpacity: 0.5,
             stroke: null
         });
         var refugee_marker = L.circle(coords, {
-            radius: refugees/5,
+            radius: refugees / 5,
             color: "yellow",
             fillColor: "yellow",
             fillOpacity: 0.5,
             stroke: null
         });
         var death_marker = L.circle(coords, {
-            radius: battle_deaths*20,
+            radius: battle_deaths * 20,
             color: "red",
             fillColor: "red",
             fillOpacity: 0.5,
             stroke: null
         });
-        var markerArray = [asylum_marker,refugee_marker,death_marker]
-        for(j=0; j<markerArray.length; j++){
+        var markerArray = [asylum_marker, refugee_marker, death_marker]
+        for (j = 0; j < markerArray.length; j++) {
             markerArray[j].bindPopup(`<strong>${countryName}</strong><hr style='margin-top:2px;margin-bottom:2px'>
             Asylum Seekers: ${asylum_seekers}<br>
             Refugees: ${refugees}<br>
-            Battle Related Deaths: ${battle_deaths}`); 
+            Battle Related Deaths: ${battle_deaths}`);
         };
         asylum_markers.push(asylum_marker);
         refugee_markers.push(refugee_marker);
@@ -132,7 +133,7 @@ d3.json(URL, function (data) {
     }
 
     //create timeline interval
-    var getInterval = function (feature) {
+    var getInterval = function(feature) {
         return {
             start: feature.properties.time,
             end: feature.properties.time + 31556926000
@@ -141,9 +142,9 @@ d3.json(URL, function (data) {
 
     //create timeline slider control
     var timelineControl = L.timelineSliderControl({
-        formatOutput: function (date) {
-             var timestamp = new Date(date);
-             return timestamp.getUTCFullYear().toString();
+        formatOutput: function(date) {
+            var timestamp = new Date(date);
+            return timestamp.getUTCFullYear().toString();
         },
         steps: 200
     });
@@ -158,7 +159,7 @@ d3.json(URL, function (data) {
     //add markers to timeline
     var timeline = L.timeline(features, {
         getInterval: getInterval,
-        pointToLayer: function (layerData, latlng) {
+        pointToLayer: function(layerData, latlng) {
             return L.circleMarker(latlng, {
                 radius: layerData.properties.value / 100000,
                 color: layerData.properties.color,
@@ -182,7 +183,7 @@ d3.json(URL, function (data) {
 
     //create formatted legend
     var legend = L.control({ position: 'bottomright' });
-    legend.onAdd = function (map) {
+    legend.onAdd = function(map) {
         var div = L.DomUtil.create('div', 'info legend')
         div.innerHTML = "<div style='background-color:#fff;padding:5px;border:2px solid #8e9196;border-radius:5px;color:black'>\
                             <p style='text-align:center; margin:0px'><strong>Legend</strong></p>\
@@ -197,11 +198,11 @@ d3.json(URL, function (data) {
 
     //add layer control
     var baseMaps = {
-        "Light":streetLayer,
-        "Dark":darkLayer,
-        "Satellite":satelliteLayer
+        "Light": streetLayer,
+        "Dark": darkLayer,
+        "Satellite": satelliteLayer
     }
-    
+
     var overlayMaps = {
         "Timeline": timelineLayer,
         "2016 Battle Related Deaths": battle_deathsLayer,

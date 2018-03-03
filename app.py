@@ -59,8 +59,8 @@ def info(country):
     info_table = session.query(CountryInfo.country_name, CountryInfo.gdp_YR2015, CountryInfo.population_YR2016,
                                CountryInfo.asylum_YR2016, CountryInfo.origin_YR2016).all()
     info_table = pd.DataFrame(info_table)
-    info_table.columns = ['country_name', 'GDP YEAR 2015', 'POPULATION YEAR 2016',
-                          'ASYLUM NUMBER YEAR 2016', 'REFUGEE ORIGIN YEAR 2016']
+    info_table.columns = ['country_name', 'GDP 2015', 'POPULATION 2016 (x1000)',
+                          'BATTLE DEATHS 2016', 'REFUGEE ORIGIN YEAR 2016']
     info_table = info_table.set_index('country_name').to_dict('index')
 
     data = info_table[country]

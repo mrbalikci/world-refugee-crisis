@@ -1,0 +1,182 @@
+Country Name,Latitude (average),Longitude (average),Series Name,Series Code,Country Code,1990 [YR1990],1991 [YR1991],1992 [YR1992],1993 [YR1993],1994 [YR1994],1995 [YR1995],1996 [YR1996],1997 [YR1997],1998 [YR1998],1999 [YR1999],2000 [YR2000],2001 [YR2001],2002 [YR2002],2003 [YR2003],2004 [YR2004],2005 [YR2005],2006 [YR2006],2007 [YR2007],2008 [YR2008],2009 [YR2009],2010 [YR2010],2011 [YR2011],2012 [YR2012],2013 [YR2013],2014 [YR2014],2015 [YR2015],2016 [YR2016],2017 [YR2017]
+Albania,41.0,20.0,Battle-related deaths (number of people),VC.BTL.DETH,ALB,..,..,..,..,..,..,..,..,..,6,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Algeria,28.0,3.0,Battle-related deaths (number of people),VC.BTL.DETH,DZA,..,34,257,800,1916,3008,1084,1403,3029,1016,931,642,538,670,397,217,255,472,339,505,236,267,256,147,107,110,86,..
+American Samoa,-14.3333,-170.0,Battle-related deaths (number of people),VC.BTL.DETH,ASM,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Andorra,42.5,1.6,Battle-related deaths (number of people),VC.BTL.DETH,AND,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Angola,-12.5,18.5,Battle-related deaths (number of people),VC.BTL.DETH,AGO,2558,526,2321,12054,3974,162,72,50,1075,2272,943,1123,511,..,37,..,..,25,..,25,..,..,..,..,..,..,..,..
+Antigua and Barbuda,17.05,-61.8,Battle-related deaths (number of people),VC.BTL.DETH,ATG,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Argentina,-34.0,-64.0,Battle-related deaths (number of people),VC.BTL.DETH,ARG,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Armenia,40.0,45.0,Battle-related deaths (number of people),VC.BTL.DETH,ARM,..,..,85,37,30,..,..,..,..,..,..,..,..,..,..,1,..,..,..,..,..,..,9,..,..,9,4,..
+Aruba,12.5,-69.9667,Battle-related deaths (number of people),VC.BTL.DETH,ABW,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Australia,-27.0,133.0,Battle-related deaths (number of people),VC.BTL.DETH,AUS,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Austria,47.3333,13.3333,Battle-related deaths (number of people),VC.BTL.DETH,AUT,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Azerbaijan,40.5,47.5,Battle-related deaths (number of people),VC.BTL.DETH,AZE,..,35,2082,1197,1477,44,..,29,34,..,..,..,..,..,..,24,..,..,30,..,..,..,16,..,46,63,137,..
+Bahrain,26.0,50.55,Battle-related deaths (number of people),VC.BTL.DETH,BHR,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Bangladesh,24.0,90.0,Battle-related deaths (number of people),VC.BTL.DETH,BGD,45,25,..,..,..,..,..,..,..,..,..,..,..,..,..,62,57,..,..,..,..,..,..,..,..,..,39,..
+Barbados,13.1667,-59.5333,Battle-related deaths (number of people),VC.BTL.DETH,BRB,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Belarus,53.0,28.0,Battle-related deaths (number of people),VC.BTL.DETH,BLR,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Belgium,50.8333,4.0,Battle-related deaths (number of people),VC.BTL.DETH,BEL,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,2,..
+Belize,17.25,-88.75,Battle-related deaths (number of people),VC.BTL.DETH,BLZ,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Benin,9.5,2.25,Battle-related deaths (number of people),VC.BTL.DETH,BEN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Bermuda,32.3333,-64.75,Battle-related deaths (number of people),VC.BTL.DETH,BMU,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Bhutan,27.5,90.5,Battle-related deaths (number of people),VC.BTL.DETH,BTN,..,..,..,..,..,..,..,4,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Bosnia and Herzegovina,44.0,18.0,Battle-related deaths (number of people),VC.BTL.DETH,BIH,..,..,3972,5295,2831,1345,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Botswana,-22.0,24.0,Battle-related deaths (number of people),VC.BTL.DETH,BWA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Brazil,-10.0,-55.0,Battle-related deaths (number of people),VC.BTL.DETH,BRA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Brunei Darussalam,4.5,114.6667,Battle-related deaths (number of people),VC.BTL.DETH,BRN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Bulgaria,43.0,25.0,Battle-related deaths (number of people),VC.BTL.DETH,BGR,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Burkina Faso,13.0,-2.0,Battle-related deaths (number of people),VC.BTL.DETH,BFA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Burundi,-3.5,30.0,Battle-related deaths (number of people),VC.BTL.DETH,BDI,..,272,61,..,56,254,531,639,621,524,1348,1182,1170,972,387,286,141,..,201,..,..,..,..,..,49,133,..,..
+Cambodia,13.0,105.0,Battle-related deaths (number of people),VC.BTL.DETH,KHM,274,220,118,274,464,694,788,426,232,..,..,..,..,..,..,..,..,..,..,..,..,10,..,..,..,..,..,..
+Cameroon,6.0,12.0,Battle-related deaths (number of people),VC.BTL.DETH,CMR,..,..,..,..,..,..,56,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,969,924,181,..
+Canada,60.0,-95.0,Battle-related deaths (number of people),VC.BTL.DETH,CAN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Cayman Islands,19.5,-80.5,Battle-related deaths (number of people),VC.BTL.DETH,CYM,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Central African Republic,7.0,21.0,Battle-related deaths (number of people),VC.BTL.DETH,CAF,..,..,..,..,..,..,..,..,..,..,..,234,131,..,..,..,45,..,..,86,48,48,45,366,17,..,..,..
+Chad,15.0,19.0,Battle-related deaths (number of people),VC.BTL.DETH,TCD,652,68,899,120,161,..,..,97,34,394,989,226,295,37,50,100,1250,69,991,135,4,..,..,..,..,275,..,..
+Chile,-30.0,-71.0,Battle-related deaths (number of people),VC.BTL.DETH,CHL,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+China,35.0,105.0,Battle-related deaths (number of people),VC.BTL.DETH,CHN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,36,2,..,..,..,..,..,5,..,..
+Colombia,4.0,-72.0,Battle-related deaths (number of people),VC.BTL.DETH,COL,501,725,1479,182,1123,823,1192,560,939,1374,1023,1072,2263,751,1234,1389,502,314,219,377,419,202,211,140,114,134,30,..
+Comoros,-12.1667,44.25,Battle-related deaths (number of people),VC.BTL.DETH,COM,..,..,..,..,..,..,..,56,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Costa Rica,10.0,-84.0,Battle-related deaths (number of people),VC.BTL.DETH,CRI,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Croatia,45.1667,15.5,Battle-related deaths (number of people),VC.BTL.DETH,HRV,..,..,142,345,..,826,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Cuba,21.5,-80.0,Battle-related deaths (number of people),VC.BTL.DETH,CUB,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Cyprus,35.0,33.0,Battle-related deaths (number of people),VC.BTL.DETH,CYP,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Czech Republic,49.75,15.5,Battle-related deaths (number of people),VC.BTL.DETH,CZE,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Denmark,56.0,10.0,Battle-related deaths (number of people),VC.BTL.DETH,DNK,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Djibouti,11.5,43.0,Battle-related deaths (number of people),VC.BTL.DETH,DJI,60,59,129,33,39,..,..,..,..,25,..,..,..,..,..,..,..,..,35,..,..,..,..,..,..,..,..,..
+Dominica,15.4167,-61.3333,Battle-related deaths (number of people),VC.BTL.DETH,DMA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Dominican Republic,19.0,-70.6667,Battle-related deaths (number of people),VC.BTL.DETH,DOM,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Ecuador,-2.0,-77.5,Battle-related deaths (number of people),VC.BTL.DETH,ECU,..,..,..,..,..,11,..,..,..,..,..,..,..,..,..,..,..,..,25,..,..,..,..,..,..,..,..,..
+El Salvador,13.8333,-88.9167,Battle-related deaths (number of people),VC.BTL.DETH,SLV,848,88,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Equatorial Guinea,2.0,10.0,Battle-related deaths (number of people),VC.BTL.DETH,GNQ,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Eritrea,15.0,39.0,Battle-related deaths (number of people),VC.BTL.DETH,ERI,..,..,..,..,..,..,..,31,10,17203,25000,..,..,57,..,..,..,..,..,..,..,..,..,..,..,..,25,..
+Estonia,59.0,26.0,Battle-related deaths (number of people),VC.BTL.DETH,EST,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Ethiopia,8.0,38.0,Battle-related deaths (number of people),VC.BTL.DETH,ETH,49698,12227,165,36,75,29,52,..,1040,30704,25050,40,50,50,50,83,50,177,50,515,151,51,50,77,25,49,50,..
+Faroe Islands,62.0,-7.0,Battle-related deaths (number of people),VC.BTL.DETH,FRO,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Fiji,-18.0,175.0,Battle-related deaths (number of people),VC.BTL.DETH,FJI,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Finland,64.0,26.0,Battle-related deaths (number of people),VC.BTL.DETH,FIN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+France,46.0,2.0,Battle-related deaths (number of people),VC.BTL.DETH,FRA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,3,..,..
+French Polynesia,-15.0,-140.0,Battle-related deaths (number of people),VC.BTL.DETH,PYF,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Gabon,-1.0,11.75,Battle-related deaths (number of people),VC.BTL.DETH,GAB,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Georgia,42.0,43.5,Battle-related deaths (number of people),VC.BTL.DETH,GEO,..,52,771,1763,..,..,..,..,..,..,..,..,0,..,27,..,..,..,621,..,..,..,..,..,..,..,..,..
+Germany,51.0,9.0,Battle-related deaths (number of people),VC.BTL.DETH,DEU,1,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Ghana,8.0,-2.0,Battle-related deaths (number of people),VC.BTL.DETH,GHA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Gibraltar,36.1833,-5.3667,Battle-related deaths (number of people),VC.BTL.DETH,GIB,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Greece,39.0,22.0,Battle-related deaths (number of people),VC.BTL.DETH,GRC,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Greenland,72.0,-40.0,Battle-related deaths (number of people),VC.BTL.DETH,GRL,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Grenada,12.1167,-61.6667,Battle-related deaths (number of people),VC.BTL.DETH,GRD,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Guam,13.4667,144.7833,Battle-related deaths (number of people),VC.BTL.DETH,GUM,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Guatemala,15.5,-90.25,Battle-related deaths (number of people),VC.BTL.DETH,GTM,83,72,67,58,37,27,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Guinea,11.0,-10.0,Battle-related deaths (number of people),VC.BTL.DETH,GIN,..,..,..,..,..,..,..,..,..,..,217,430,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Guinea-Bissau,12.0,-15.0,Battle-related deaths (number of people),VC.BTL.DETH,GNB,..,..,2,..,..,..,..,..,505,199,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Guyana,5.0,-59.0,Battle-related deaths (number of people),VC.BTL.DETH,GUY,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Haiti,19.0,-72.4167,Battle-related deaths (number of people),VC.BTL.DETH,HTI,..,160,..,..,..,..,..,..,..,..,..,..,..,..,207,..,..,..,..,..,..,..,..,..,..,..,..,..
+Honduras,15.0,-86.5,Battle-related deaths (number of people),VC.BTL.DETH,HND,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Hungary,47.0,20.0,Battle-related deaths (number of people),VC.BTL.DETH,HUN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Iceland,65.0,-18.0,Battle-related deaths (number of people),VC.BTL.DETH,ISL,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+India,20.0,77.0,Battle-related deaths (number of people),VC.BTL.DETH,IND,2324,3149,3078,1503,1172,836,828,986,811,2025,2814,1154,1797,1512,1374,1382,1372,1084,1071,1115,1029,433,409,384,463,495,652,..
+Indonesia,-5.0,120.0,Battle-related deaths (number of people),VC.BTL.DETH,IDN,72,58,39,..,..,..,..,51,30,213,286,278,466,863,915,213,..,..,..,..,..,..,..,..,..,..,..,..
+Iraq,33.0,44.0,Battle-related deaths (number of people),VC.BTL.DETH,IRQ,94,23038,327,118,140,657,681,1911,32,270,53,7,26,7927,4094,2608,3939,2217,2200,1043,1144,1072,638,1882,12149,10138,9016,..
+Ireland,53.0,-8.0,Battle-related deaths (number of people),VC.BTL.DETH,IRL,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Isle of Man,54.23,-4.55,Battle-related deaths (number of people),VC.BTL.DETH,IMN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Israel,31.5,34.75,Battle-related deaths (number of people),VC.BTL.DETH,ISR,18,16,31,49,44,35,71,..,..,..,77,244,610,309,376,120,565,276,665,682,27,56,64,..,1671,..,..,..
+Italy,42.8333,12.8333,Battle-related deaths (number of people),VC.BTL.DETH,ITA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Jamaica,18.25,-77.5,Battle-related deaths (number of people),VC.BTL.DETH,JAM,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Japan,36.0,138.0,Battle-related deaths (number of people),VC.BTL.DETH,JPN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Jordan,31.0,36.0,Battle-related deaths (number of people),VC.BTL.DETH,JOR,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,1,34,..
+Kazakhstan,48.0,68.0,Battle-related deaths (number of people),VC.BTL.DETH,KAZ,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Kenya,1.0,38.0,Battle-related deaths (number of people),VC.BTL.DETH,KEN,..,..,..,..,..,..,..,..,..,18,..,10,..,..,..,..,..,1,..,..,..,2,29,32,37,45,49,..
+Kiribati,1.4167,173.0,Battle-related deaths (number of people),VC.BTL.DETH,KIR,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Kuwait,29.3375,47.6581,Battle-related deaths (number of people),VC.BTL.DETH,KWT,1058,135,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Latvia,57.0,25.0,Battle-related deaths (number of people),VC.BTL.DETH,LVA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Lebanon,33.8333,35.8333,Battle-related deaths (number of people),VC.BTL.DETH,LBN,753,40,89,122,82,73,90,82,54,41,..,..,..,..,..,..,588,..,..,..,..,..,..,2,134,76,..,..
+Lesotho,-29.5,28.5,Battle-related deaths (number of people),VC.BTL.DETH,LSO,..,..,..,..,..,..,..,..,68,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Liberia,6.5,-9.5,Battle-related deaths (number of people),VC.BTL.DETH,LBR,339,..,..,5,..,..,..,..,..,..,57,341,492,1787,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Liechtenstein,47.1667,9.5333,Battle-related deaths (number of people),VC.BTL.DETH,LIE,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Lithuania,56.0,24.0,Battle-related deaths (number of people),VC.BTL.DETH,LTU,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Luxembourg,49.75,6.1667,Battle-related deaths (number of people),VC.BTL.DETH,LUX,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Madagascar,-20.0,47.0,Battle-related deaths (number of people),VC.BTL.DETH,MDG,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Malawi,-13.5,34.0,Battle-related deaths (number of people),VC.BTL.DETH,MWI,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Malaysia,2.5,112.5,Battle-related deaths (number of people),VC.BTL.DETH,MYS,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,70,..,..,..,..
+Maldives,3.25,73.0,Battle-related deaths (number of people),VC.BTL.DETH,MDV,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Mali,17.0,-4.0,Battle-related deaths (number of people),VC.BTL.DETH,MLI,203,..,..,..,106,..,..,..,..,..,..,..,..,..,..,12,..,39,112,126,28,18,218,808,189,129,96,..
+Malta,35.8333,14.5833,Battle-related deaths (number of people),VC.BTL.DETH,MLT,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Marshall Islands,9.0,168.0,Battle-related deaths (number of people),VC.BTL.DETH,MHL,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Mauritania,20.0,-12.0,Battle-related deaths (number of people),VC.BTL.DETH,MRT,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,1,8,..,..,..,..,..,..
+Mauritius,-20.2833,57.55,Battle-related deaths (number of people),VC.BTL.DETH,MUS,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Mexico,23.0,-102.0,Battle-related deaths (number of people),VC.BTL.DETH,MEX,..,..,..,..,145,..,37,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Monaco,43.7333,7.4,Battle-related deaths (number of people),VC.BTL.DETH,MCO,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Mongolia,46.0,105.0,Battle-related deaths (number of people),VC.BTL.DETH,MNG,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Montenegro,42.0,19.0,Battle-related deaths (number of people),VC.BTL.DETH,MNE,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Morocco,32.0,-5.0,Battle-related deaths (number of people),VC.BTL.DETH,MAR,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Mozambique,-18.25,35.0,Battle-related deaths (number of people),VC.BTL.DETH,MOZ,1577,1326,309,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,27,..,..,26,..
+Myanmar,22.0,98.0,Battle-related deaths (number of people),VC.BTL.DETH,MMR,536,777,1617,130,685,317,229,323,61,25,215,193,271,38,27,139,244,348,46,188,150,713,702,278,187,625,116,..
+Namibia,-22.0,17.0,Battle-related deaths (number of people),VC.BTL.DETH,NAM,..,..,..,..,..,..,..,..,..,1,57,..,5,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Nauru,-0.5333,166.9167,Battle-related deaths (number of people),VC.BTL.DETH,NRU,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Nepal,28.0,84.0,Battle-related deaths (number of people),VC.BTL.DETH,NPL,..,..,..,..,..,..,44,40,250,156,268,429,3947,1341,1880,1104,457,..,..,..,..,..,..,..,..,..,..,..
+Netherlands,52.5,5.75,Battle-related deaths (number of people),VC.BTL.DETH,NLD,2,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+New Caledonia,-21.5,165.5,Battle-related deaths (number of people),VC.BTL.DETH,NCL,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+New Zealand,-41.0,174.0,Battle-related deaths (number of people),VC.BTL.DETH,NZL,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Nicaragua,13.0,-85.0,Battle-related deaths (number of people),VC.BTL.DETH,NIC,39,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Niger,16.0,8.0,Battle-related deaths (number of people),VC.BTL.DETH,NER,..,40,29,..,50,34,..,62,..,..,..,..,..,..,4,..,..,81,47,..,..,..,..,31,..,332,274,..
+Nigeria,10.0,8.0,Battle-related deaths (number of people),VC.BTL.DETH,NGA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,128,..,..,..,..,405,..,324,811,1629,3811,4493,2430,..
+Northern Mariana Islands,15.2,145.75,Battle-related deaths (number of people),VC.BTL.DETH,MNP,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Norway,62.0,10.0,Battle-related deaths (number of people),VC.BTL.DETH,NOR,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Oman,21.0,57.0,Battle-related deaths (number of people),VC.BTL.DETH,OMN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Pakistan,30.0,70.0,Battle-related deaths (number of people),VC.BTL.DETH,PAK,72,26,..,..,38,69,42,..,..,..,1,20,32,174,359,110,419,747,3537,6864,6052,2863,3018,1802,3136,2077,761,..
+Palau,7.5,134.5,Battle-related deaths (number of people),VC.BTL.DETH,PLW,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Panama,9.0,-80.0,Battle-related deaths (number of people),VC.BTL.DETH,PAN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Papua New Guinea,-6.0,147.0,Battle-related deaths (number of people),VC.BTL.DETH,PNG,55,..,33,34,26,29,78,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Paraguay,-23.0,-58.0,Battle-related deaths (number of people),VC.BTL.DETH,PRY,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Peru,-10.0,-76.0,Battle-related deaths (number of people),VC.BTL.DETH,PER,1099,1138,1036,672,253,259,80,93,25,75,..,..,..,..,..,..,..,32,40,50,28,..,..,..,..,..,..,..
+Philippines,13.0,122.0,Battle-related deaths (number of people),VC.BTL.DETH,PHL,1306,1515,430,253,265,152,180,302,93,199,1567,749,662,1056,339,470,360,439,481,894,332,350,295,514,470,572,414,..
+Poland,52.0,20.0,Battle-related deaths (number of people),VC.BTL.DETH,POL,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Portugal,39.5,-8.0,Battle-related deaths (number of people),VC.BTL.DETH,PRT,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Puerto Rico,18.25,-66.5,Battle-related deaths (number of people),VC.BTL.DETH,PRI,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Qatar,25.5,51.25,Battle-related deaths (number of people),VC.BTL.DETH,QAT,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Romania,46.0,25.0,Battle-related deaths (number of people),VC.BTL.DETH,ROU,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Russian Federation,60.0,100.0,Battle-related deaths (number of people),VC.BTL.DETH,RUS,192,220,..,145,229,1754,2721,..,..,5854,2907,791,1298,480,1151,668,259,176,404,696,418,356,516,321,168,84,66,..
+Rwanda,-2.0,30.0,Battle-related deaths (number of people),VC.BTL.DETH,RWA,1126,153,87,353,1054,..,90,535,1095,..,..,2044,..,..,..,..,..,..,..,..,..,..,13,1,..,..,..,..
+Samoa,-13.5833,-172.3333,Battle-related deaths (number of people),VC.BTL.DETH,WSM,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+San Marino,43.7667,12.4167,Battle-related deaths (number of people),VC.BTL.DETH,SMR,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Sao Tome and Principe,1.0,7.0,Battle-related deaths (number of people),VC.BTL.DETH,STP,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Saudi Arabia,25.0,45.0,Battle-related deaths (number of people),VC.BTL.DETH,SAU,..,101,..,..,..,..,..,..,..,..,..,..,..,..,58,31,11,2,..,..,..,..,..,..,..,78,110,..
+Senegal,14.0,-14.0,Battle-related deaths (number of people),VC.BTL.DETH,SEN,58,..,76,233,..,299,..,319,242,..,47,33,..,39,..,..,..,..,..,..,..,25,..,..,..,..,..,..
+Serbia,44.0,21.0,Battle-related deaths (number of people),VC.BTL.DETH,SRB,..,3022,142,..,..,..,..,..,1235,1398,..,0,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Seychelles,-4.5833,55.6667,Battle-related deaths (number of people),VC.BTL.DETH,SYC,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Sierra Leone,8.5,-11.5,Battle-related deaths (number of people),VC.BTL.DETH,SLE,..,552,218,410,628,1472,570,748,3287,3153,382,50,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Singapore,1.3667,103.8,Battle-related deaths (number of people),VC.BTL.DETH,SGP,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Slovenia,46.0,15.0,Battle-related deaths (number of people),VC.BTL.DETH,SVN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Solomon Islands,-8.0,159.0,Battle-related deaths (number of people),VC.BTL.DETH,SLB,..,..,2,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Somalia,10.0,49.0,Battle-related deaths (number of people),VC.BTL.DETH,SOM,2650,8005,1154,25,237,104,440,..,..,25,..,228,114,..,..,..,547,1579,1529,1481,2151,1937,2600,896,1104,1173,1925,..
+South Africa,-29.0,24.0,Battle-related deaths (number of people),VC.BTL.DETH,ZAF,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Spain,40.0,-4.0,Battle-related deaths (number of people),VC.BTL.DETH,ESP,..,44,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Sri Lanka,7.0,81.0,Battle-related deaths (number of people),VC.BTL.DETH,LKA,3622,6432,4091,2075,657,4755,3868,2880,3762,1882,2525,1144,..,29,..,88,1970,2494,8262,10165,..,..,..,..,..,..,..,..
+Sudan,15.0,30.0,Battle-related deaths (number of people),VC.BTL.DETH,SDN,5030,1313,1083,942,337,1036,2289,3859,4891,1408,2841,3457,2312,2008,3673,246,1030,217,620,373,1054,1404,1411,593,849,1264,1314,..
+Suriname,4.0,-56.0,Battle-related deaths (number of people),VC.BTL.DETH,SUR,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Swaziland,-26.5,31.5,Battle-related deaths (number of people),VC.BTL.DETH,SWZ,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Sweden,62.0,15.0,Battle-related deaths (number of people),VC.BTL.DETH,SWE,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Switzerland,47.0,8.0,Battle-related deaths (number of people),VC.BTL.DETH,CHE,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Syrian Arab Republic,35.0,38.0,Battle-related deaths (number of people),VC.BTL.DETH,SYR,..,..,..,..,..,..,..,..,..,..,..,..,..,..,1,..,..,..,..,..,..,965,38500,69086,57529,46643,44303,..
+Tajikistan,39.0,71.0,Battle-related deaths (number of people),VC.BTL.DETH,TJK,..,..,3281,1045,356,368,2790,87,600,3,46,..,..,..,..,..,..,..,..,..,98,28,..,..,..,..,..,..
+Thailand,15.0,100.0,Battle-related deaths (number of people),VC.BTL.DETH,THA,19,..,..,..,..,..,..,1,3,..,8,22,23,26,164,208,212,197,148,138,82,161,131,189,68,53,50,..
+Timor-Leste,-8.55,125.5167,Battle-related deaths (number of people),VC.BTL.DETH,TLS,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Togo,8.0,1.1667,Battle-related deaths (number of people),VC.BTL.DETH,TGO,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Tonga,-20.0,-175.0,Battle-related deaths (number of people),VC.BTL.DETH,TON,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Trinidad and Tobago,11.0,-61.0,Battle-related deaths (number of people),VC.BTL.DETH,TTO,39,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Tunisia,34.0,9.0,Battle-related deaths (number of people),VC.BTL.DETH,TUN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Turkey,39.0,35.0,Battle-related deaths (number of people),VC.BTL.DETH,TUR,245,344,1563,2117,3865,3006,3283,2273,1920,1129,121,81,25,79,183,359,210,453,429,126,197,421,743,19,..,899,1398,..
+Turkmenistan,40.0,60.0,Battle-related deaths (number of people),VC.BTL.DETH,TKM,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Turks and Caicos Islands,21.75,-71.5833,Battle-related deaths (number of people),VC.BTL.DETH,TCA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Tuvalu,-8.0,178.0,Battle-related deaths (number of people),VC.BTL.DETH,TUV,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Uganda,1.0,32.0,Battle-related deaths (number of people),VC.BTL.DETH,UGA,626,857,72,..,149,259,1155,738,746,341,364,108,722,633,1215,610,198,91,..,..,..,..,..,..,..,..,..,..
+Ukraine,49.0,32.0,Battle-related deaths (number of people),VC.BTL.DETH,UKR,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,4353,1304,255,..
+United Arab Emirates,24.0,54.0,Battle-related deaths (number of people),VC.BTL.DETH,ARE,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+United Kingdom,54.0,-2.0,Battle-related deaths (number of people),VC.BTL.DETH,GBR,41,26,..,..,..,..,..,..,29,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+United States,38.0,-97.0,Battle-related deaths (number of people),VC.BTL.DETH,USA,..,..,..,..,..,..,..,..,..,..,..,233,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Uruguay,-33.0,-56.0,Battle-related deaths (number of people),VC.BTL.DETH,URY,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Uzbekistan,41.0,64.0,Battle-related deaths (number of people),VC.BTL.DETH,UZB,..,..,..,..,..,..,..,..,..,50,297,..,..,..,37,..,..,..,..,..,..,..,..,..,..,..,..,..
+Vanuatu,-16.0,167.0,Battle-related deaths (number of people),VC.BTL.DETH,VUT,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Zambia,-15.0,30.0,Battle-related deaths (number of people),VC.BTL.DETH,ZMB,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Zimbabwe,-20.0,30.0,Battle-related deaths (number of people),VC.BTL.DETH,ZWE,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Afghanistan,33.0,65.0,Battle-related deaths (number of people),VC.BTL.DETH,AFG,1478,3302,4276,4071,8937,5499,3177,6396,6256,4629,5235,5148,890,687,715,1595,4750,6906,5552,6341,6864,7405,7719,8056,12285,17273,17980,..
